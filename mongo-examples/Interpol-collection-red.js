@@ -1,0 +1,18 @@
+
+// COLLECTION: Red (Wanted List)
+// Used in the CRUD application to demonstrate basic operations on personal fields
+// such as name, gender, date of birth, nationality, and status.
+// Inspired by interpol-style data for realism.
+
+db.Red.insertOne({ _id: "WL01", name: "VASQUEZ RABANALES, EDY LEONEL", Gender: "M", Date_of_birth: "1991-01-01", Place_of_birth: "San Lorenzo, San Marcos, Guatemala", Nationality: "Guatemala", Description: { Height: 166, Hair: "Brown", Eyes: "Dark brown" }, Language_spoken: "Spanish", Status: "Wanted", Resource: "CNDES", Charges: ["Extrajudicial execution"] })
+
+db.Red.insertMany([ 
+{ _id: "WL02", name: "MEJIA, TEDDY JAY", Gender: "M", Date_of_birth: "1991-10-29", Place_of_birth: "Dupax Del Norte, Nueva Vizcaya, Philippines", Nationality: "Philippines", Description: { Hair: "Black", Eyes: "Black" }, Language_spoken: ["English", "Tagalog"], Status: "Wanted", Resource: "INT", Charges: [ " Trafficking ", "Online Sexual Abuse or Exploitation of Children", "Rape" ] }, 
+{ _id: "WL03", name: "WEBB, ROJAY", Gender: "M", Date_of_birth: "2001-08-29", Place_of_birth: "Westmoreland, Jamaica", Nationality: "Jamaica", Description: { Height: 173, Hair: "Black", Eyes: "Black" }, Language_spoken: ["English"], Status: "Arrested", Resource: "INT", Charges: [ "Murder", "Two Counts Wounding with Intent", "Possession of a Prohibited Weapon" ] }, 
+{ _id: "WL04", name: "ZAHID, NAQEEBA", Gender: "F", Date_of_birth: "1988-07-29", Place_of_birth: "EAST COAST DEMERARA, Guyana", Nationality: "Guyana", Description: { Hair: "Black", Eyes: "Brown" }, Language_spoken: ["English"], Status: "Wanted", Resource: "NCA", Charges: ["Murder"] }, 
+{ _id: "WL05", name: "ASALYA, OTHMAN KHALED ABD ALAZIM", Gender: "M", Date_of_birth: "1989-03-13", Place_of_birth: "GAZA, Palestine, State of", Nationality: ["Sweden", "Palestine, State of"], Description: { Height: 176, }, Language_spoken: ["Swedish", "Arabic"], Status: "Wanted", Resource: "NCA", Charges: ["Murder", "Arson"] },
+{ _id: "WL06", name: "DIJKSTEEL, IWAN LEENDERT", Gender: "M", Date_of_birth: "1952-12-12", Place_of_birth: "Suriname", Nationality: "Suriname", Description: { Hair: "Bald", Eyes: "Dark brown" }, Language_spoken: ["Dutch", "English"], Status: "Wanted", Resource: "SAPS", Charges: ["Participation in the commission to commit Murder"] }, 
+{ _id: "WL07", name: "MISZTA, KRZYSZTOF PIOTR", Gender: "M", Date_of_birth: "1973-07-31", Place_of_birth: "SLUPSK, Poland", Nationality: "Poland", Description: { Height: 180, Eyes: "Dark brown" }, Language_spoken: ["Polish"], Status: "Wanted", Resource: "CNDES", Charges: [ "Participation in a criminal organisation", "Illicit trafficking in narcotic drugs and psychotropic substances" ] }, 
+{ _id: "WL08", name: "CASTRO ALEZANO, BRANDON ALEXIS", Gender: "M", Date_of_birth: "1993-09-14", Place_of_birth: "MAZATENANGO SUCHITEPEQUEZ, Guatemala", Nationality: "Guatemala", Description: { Height: 165, Hair: "Brown", Eyes: "Black" }, Language_spoken: ["Spanish"], Status: "Wanted", Resource: "INT", Charges: ["MURDER"] }, 
+{ _id: "WL09", name: "FERGUSON, JEFFREY", Gender: "M", Date_of_birth: "1987-02-10", Place_of_birth: "Belize City, Belize", Nationality: "Belize", Description: { Hair: "Black", Eyes: "Dark brown" }, Language_spoken: ["English"], Status: "Wanted", Resource: "NCA", Charges: ["Murder"] }, 
+{ _id: "WL10", name: "GUZMAN, RAUL", Gender: "M", Date_of_birth: "1958-09-01", Place_of_birth: "Stann Creek, Belize", Nationality: "Belize", Description: { Height: 166, Hair: "Black", Eyes: "Light brown" }, Language_spoken: ["Spanish", "English"], Status: "Wanted", Resource: "SAPS", Charges: ["Rape"] } ])
