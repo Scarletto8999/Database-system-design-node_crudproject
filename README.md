@@ -6,8 +6,8 @@ This project was developed by a collaborative team of Software Engineering stude
 - Firdos Muhammad Abdi  
 - Haneen Alobaidi  
 - Masarrah Enriquez Al Delemi  
+- Masa Soudan
 - Redan Abd Elkhalik  
-- Masa Soudan  
 
 This is a MongoDB-based CRUD application inspired by the INTERPOL notice system. It simulates how international law enforcement agencies manage records of wanted individuals, crimes, missing persons, and other criminal data.
 
