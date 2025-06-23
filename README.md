@@ -24,12 +24,12 @@ The application focuses on one primary collection: `Red`, which represents wante
 
 📁 Project Structure
 
--/mongo-examples/
--├── interpol-collection-red.js // Main data for CRUD app (Red collection)
--├── interpol-other-collections.js // These collections were added for learning purposes only and to fulfill the concept of working with interpol-style international data.
--├── mongo-queries.js // were not used directly in the CRUD application, but were written and tested to demonstrate proficiency
+/mongo-examples/
+interpol-collection-red.js // Main data for CRUD app (Red collection)
+interpol-other-collections.js // These collections were added for learning purposes only and to fulfill the concept of working with interpol-style international data.
+mongo-queries.js // were not used directly in the CRUD application, but were written and tested to demonstrate proficiency
 
->Only the `Red` collection is connected to the app. Other files are for demonstration and academic enhancement.
+// Only the `Red` collection is connected to the app. Other files are for demonstration and academic enhancement.
 These files are **not part of the live app logic**, but included to demonstrate our use of:
 - Aggregations (`$lookup`, `$unwind`, `$group`)
 - Realistic INTERPOL-style document structure
