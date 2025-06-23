@@ -1,0 +1,80 @@
+
+
+<%- include("layout/header") %>
+
+<div class = "container"> 
+    <div class= "row">
+        <div class="col-lg-6 mx-auto mt-4">
+            <div class="card shadow">
+                <div class="card-header bg-primary">
+                    <h5 class="text-light">Add New Person</h5>
+                </div>
+                <div class="card-body p-4">
+                    <form action="/add" method="post" id="add-form">
+                        <div class="mb-3">
+                            <label for="_id">ID</label>
+                            <input type="text" name="_id" class="form-control form-control-lg" placeholder="Enter ID" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" class="form-control form-control-lg" placeholder="Enter Name" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Date_of_birth">Date of Birth</label>
+                            <input type="date" name="Date_of_birth" class="form-control form-control-lg" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Place_of_birth">Place of Birth</label>
+                            <input type="text" name="Place_of_birth" class="form-control form-control-lg" placeholder="Enter Place of Birth" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Gender">Gender</label>
+                            <input type="text" name="Gender" class="form-control form-control-lg" placeholder="Enter Gender" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Status">Status</label>
+                            <input type="text" name="Status" class="form-control form-control-lg" placeholder="Enter status" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Resource">Resources</label>
+                            <input type="text" name="Resource" class="form-control form-control-lg" placeholder="Enter Resource" required/>
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="Nationality">Nationality</label>
+                            <input type="text" name="Nationality" class="form-control form-control-lg" placeholder="Enter Nationality" required/>
+                        </div>
+                        <h3>Description</h3>
+                        <div class="mb-3">
+                            <label for="Description[Height]">Height</label>
+                            <input type="number" step="0.01" name="Description[Height]" class="form-control form-control-lg" placeholder="Enter Height" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Description[Hair]">Hair Color</label>
+                            <input type="text" name="Description[Hair]" class="form-control form-control-lg" placeholder="Enter Hair Color" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Description[Eyes]">Eye Color</label>
+                            <input type="text" name="Description[Eyes]" class="form-control form-control-lg" placeholder="Enter Eye Color" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Description[Language_spoken]">Languages Spoken</label>
+                            <input type="text" name="Description[Language_spoken]" class="form-control form-control-lg" placeholder="Enter Languages Spoken" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Charges">Charges</label>
+                            <input type="text" name="Charges" class="form-control form-control-lg" placeholder="Enter Charges" required/>
+                        </div>
+                        <div class="mb-3">
+                            <input type="submit" name="submit" value="Add User" class="btn btn-primary btn-lg" />
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include("layout/footer") %>

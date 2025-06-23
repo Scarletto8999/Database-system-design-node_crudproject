@@ -1,0 +1,21 @@
+/* Add this CSS to your main CSS file or style tag */
+
+/* Add some padding to the table cells */
+.table td, .table th {
+    padding: 12px;
+}
+
+/* Add borders to the table cells and rows */
+.table td, .table th, .table tbody tr {
+    border: 1px solid #ddd;
+}
+
+/* Add a background color to the table header */
+.table thead tr {
+    background-color:darkblue;
+}
+
+/* Add some margin to the table rows for separation */
+.table tbody tr {
+    margin-bottom: 20px;
+}
